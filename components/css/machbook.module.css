@@ -1,0 +1,43 @@
+.container {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.macbook {
+  transition: transform 0.5s;
+}
+
+.image1,
+.image2,
+.image3,
+.image4 {
+  position: absolute;
+  transition: transform 0.5s;
+}
+
+.image1 {
+  top: 0;
+  left: 0;
+  transform: translate(-100%, -100%);
+}
+
+.image2 {
+  top: 0;
+  right: 0;
+  transform: translate(100%, -100%);
+}
+
+.image3 {
+  bottom: 0;
+  left: 0;
+  transform: translate(-100%, 100%);
+}
+
+.image4 {
+  bottom: 0;
+  right: 0;
+  transform: translate(100%, 100%);
+}
